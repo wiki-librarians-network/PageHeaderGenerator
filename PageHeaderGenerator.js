@@ -1,5 +1,5 @@
 /**
- * Page Header Generator 
+ * Page Header Generator
  * ---------------------------------------------------------------------------
  * Runs on Index (സൂചിക:) pages. Reads the book's Wikidata item (or, failing
  * that, the Index page fields) and builds ready-to-paste main-namespace
@@ -11,7 +11,7 @@
  *   P1104 number of pages
  *
  * Author : User:Manojk (Manoj K), Wiki Librarians Network – Grandham Project
- * License: MIT 
+ * License: MIT  https://github.com/wiki-librarians-network/PersonalityRightsHelper#MIT-1-ov-file
  *
  * Install – add to Special:MyPage/common.js on ml.wikisource:
  *   mw.loader.load('//ml.wikisource.org/w/index.php?title=User:Manojk/PageHeaderGenerator.js&action=raw&ctype=text/javascript');
@@ -60,7 +60,7 @@
 			var $box = $('#wpTextbox1');
 			if (text && $box.length && !$box.val().trim()) {
 				$box.val(text).trigger('input');
-				$('#wpSummary').val('Page Header Generator ([[User:Manojk|Grandham Project]]) വഴി സൃഷ്ടിച്ചത്');
+				$('#wpSummary').val('Page Header Generator വഴി സൃഷ്ടിച്ചത് #GrandhamProject');
 				mw.notify('Page Header Generator: ഉള്ളടക്കം ചേർത്തു. പരിശോധിച്ച് സേവ് ചെയ്യുക.');
 			}
 		});
