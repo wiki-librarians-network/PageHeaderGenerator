@@ -11,7 +11,7 @@
  *   P1104 number of pages
  *
  * Author : User:Manojk (Manoj K), Wiki Librarians Network – Grandham Project
- * License: MIT  https://github.com/wiki-librarians-network/PersonalityRightsHelper#MIT-1-ov-file
+ * License: MIT  
  *
  * Install – add to Special:MyPage/common.js on ml.wikisource:
  *   mw.loader.load('//ml.wikisource.org/w/index.php?title=User:Manojk/PageHeaderGenerator.js&action=raw&ctype=text/javascript');
